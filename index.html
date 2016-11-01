@@ -104,6 +104,19 @@
                     </div>
                 </div>
 
+                <h2>Showing tooltips programatically</h2>
+                <p>If you want to show tooltips even when user interaction isn't happening, you can simply use the `data-balloon-visible` attribute:</p>
+
+                <div class="sample">
+                    <pre><code class="language-markup">&lt;button data-balloon-visible data-balloon="I am always visible!" data-balloon-pos="up">Always visible!&lt;/button></code></pre>
+                    <div class="example">
+                        <button data-balloon="I am always visible!" data-balloon-pos="up">Always visible!</button>
+                    </div>
+                </div>
+
+                <p>The attribute <code>data-balloon-visible</code> can be easily added via JavaScript (e.g. <code>.setAttribute()</code>), enabling you to show tooltips whenever needed. </p>
+
+
                 <h2>Glyphs and Icon Fonts</h2>
                 <p>You can also add any HTML special character to your tooltips, or even use third-party Icon fonts:</p>
 
