@@ -60,6 +60,47 @@ code {
     margin:0 auto;
 }
 
+.header-block {
+    display: flex;
+}
+
+.text-block {
+    flex: 1;
+}
+
+.carbon-block {
+    width: 242px;
+}
+
+#carbonads {
+    max-width: 142px;
+    border: 1px solid #e2a345;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 7rem;
+}
+
+#carbonads span {
+    display: block;
+}
+
+#carbonads a {
+    display: block;
+}
+
+#carbonads .carbon-text {
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
+
+#carbonads .carbon-poweredby {
+    margin: 2px;
+    text-align: center;
+    border-top: 1px solid rgba(226, 163, 69, 0.23);
+    color: #a27b3f;
+    padding-top: 4px;
+}
+
 .logo {
     width: 272px;
     fill: #ff3d2e;
@@ -219,5 +260,44 @@ iframe {
 
     hr {
         margin: 5em 0;
+    }
+
+    .header-block {
+        flex-direction: column;
+    }
+    
+    .text-block {
+        flex: 1;
+    }
+    
+    .carbon-block {
+        width: 100%;
+    }
+    
+    #carbonads {
+        max-width: 290px;
+        margin: 3rem auto 0;
+    }
+
+    #carbonads .carbon-wrap {
+        display: flex;
+    }
+
+    #carbonads .carbon-text {
+        padding-left: 1rem;
+        font-size: 1.4rem;
+    }
+
+    #carbonads .carbon-img {
+        float: left;
+    }
+    
+    #carbonads .carbon-text {
+        font-size: 1.3rem;
+        margin: 1rem 0;
+    }
+    
+    #carbonads .carbon-poweredby {
+        display: block;
     }
 }
