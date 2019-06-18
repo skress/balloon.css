@@ -1,0 +1,43 @@
+code {
+  line-height: 20px;
+}
+
+.tag {
+  color: var(--color-red);
+}
+
+.attr-value {
+  color: var(--color-hl-blue);
+}
+
+.language-css .rule {
+  color: var(--color-red);
+}
+
+.language-css .string {
+  color: var(--color-hl-blue);
+}
+
+.language-css .selector {
+  color: var(--color-red);
+}
+
+.language-css .property {
+  color: var(--color-hl-blue);
+}
+
+.language-css .punctuation {
+  color: var(--color-red);
+}
+
+.language-css .comment {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.language-js .keyword {
+  color: var(--color-red);
+}
+
+.language-js .string {
+  color: var(--color-hl-blue);
+}
