@@ -216,3 +216,45 @@ p + p {
   color: var(--color-red);
   opacity: 0.5;
 }
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .sample {
+    flex-direction: column;
+  }
+
+  .sample button {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  pre {
+    width: 100%;
+  }
+
+  .carbon-block {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 !important;
+    margin-bottom: 20px !important;
+  }
+  
+  footer {
+    padding: 10px;
+  }
+}
