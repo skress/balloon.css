@@ -1,4 +1,7 @@
-[![npm version](https://badge.fury.io/js/balloon-css.svg)](https://www.npmjs.com/package/balloon-css)
+This is a fork of [Balloon.css](https://www.npmjs.com/package/balloon-css) which __does not use CSS variables__ (i.e. it will work on IE11 out of the box). Include it in you SASS build process and assign values to the config variables found in `_variables.scss`.
+
+The documentation below is not adapted to this change, so you cannot simply have tooltips in different colors with this approach.
+
 
 <p align="center">
   <img src="logo.svg" width="272">
